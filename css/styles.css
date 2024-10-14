@@ -144,6 +144,9 @@ img {
 }
 
 .bg-solution {
+    background-image: url(/images/people-office\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #2e2f42;
     height: 600px;
     padding: 188px 0;
@@ -199,6 +202,19 @@ img {
 
 .features-item {
     width: calc((100% - 72px) / 4);
+}
+
+.features-icon {
+    margin: 24px 100px;;
+}
+
+.icon-box {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
 }
 
 .title-features {
