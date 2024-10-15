@@ -112,6 +112,18 @@ img {
 
 }
 
+.nav-link.current::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    bottom: -1px;
+    position: absolute;
+    left: 0;
+}
+
 .nav-link:active::after {
     content: "";
     display: block;
